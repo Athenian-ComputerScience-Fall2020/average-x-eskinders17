@@ -8,6 +8,7 @@ for i in range(0,n):
     num = int(input("Enter a number: "))
     a.append(num)
 avg = sum(a)/n
+print()
 print("Average of the numbers is",round(avg,2))
 #   return average
 
